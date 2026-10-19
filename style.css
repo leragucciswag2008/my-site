@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #222;
+  background: #f4f4f6;
+}
+
+header {
+  background: #2b2d42;
+  color: #fff;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 0;
+}
+
+nav a:hover,
+nav a.active {
+  border-bottom: 2px solid #ef233c;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2b2d42;
+  font-size: 32px;
+}
+
+h2 {
+  color: #2b2d42;
+  margin-top: 35px;
+}
+
+a {
+  color: #b5172b;
+}
+
+.btn {
+  display: inline-block;
+  background: #c8102e;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9e0c22;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.services li {
+  margin-bottom: 8px;
+}
+
+.banners img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.news-item {
+  background: #fff;
+  border-left: 5px solid #ef233c;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.news-item time {
+  color: #555;
+  font-size: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  background: #fff;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+footer {
+  background: #2b2d42;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}

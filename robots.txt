@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leragucciswag2008.github.io/my-site/sitemap.xml
